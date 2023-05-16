@@ -1,0 +1,37 @@
+DROP DATABASE student_form;
+
+CREATE DATABASE Student_form;
+USE Student_form;
+
+CREATE TABLE Student_system(
+	Student_ID INT PRIMARY KEY AUTO_INCREMENT,
+    Student_name varchar(55),
+    Address varchar(55),
+    Contact int
+    
+
+
+
+
+);
+
+CREATE TABLE Offers(
+	Subject_Code INT PRIMARY KEY AUTO_INCREMENT,
+    Major varchar(55),
+    Subject varchar(55),
+    Subject_Descr varchar(55)
+
+
+
+
+); 
+
+CREATE TABLE Student_info(
+	Student_code INT PRIMARY KEY AUTO_INCREMENT,
+    Fname varchar(55),
+    Lname varchar(55),
+    Email varchar(55)
+
+
+
+); 
