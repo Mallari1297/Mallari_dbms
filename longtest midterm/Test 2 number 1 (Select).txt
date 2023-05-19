@@ -1,0 +1,1 @@
+SELECT `Student_fname`, `studen_lname`, `major`, `gender`, `house_add` FROM `student` WHERE gender = "F" && student.house_add = "Malolos Bulacan" && student.major = "ECE";
