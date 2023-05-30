@@ -1,0 +1,1 @@
+SELECT (SELECT grade FROM grade WHERE Stud_no = "S-101" AND subject_code =  "Chem 123") AS grade , Student_fname FROM student WHERE 1
